@@ -1,0 +1,123 @@
+@import url(partidos.css);
+
+body {
+	background:url(images/bg-body.png) repeat-x top center #E8F7F9;
+	font-size:62.5%; /* Sets default font size to 10px */
+	color:#222222;
+	background-color: rgb(3, 19, 41);
+	}
+
+.condicionesDeUso h1, h2, h3{
+	color: black;
+}
+
+.listaMenu li{
+	display: inline;
+	font-size: 20px;
+	padding-left: 20px;
+	color: white;
+	
+}
+
+.listaMenu {
+	background-color: rgb(32, 69, 117);
+	text-align:center;
+}
+.listaMenu li select{	
+	background-color:rgb(32, 69, 117);
+	border-color:white;
+	color: white;
+	font-size: 20px;
+}
+.listaMenu li a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+.listaMenu li:hover a{
+	text-decoration: underline;
+}
+.tablaEventos table td a{
+	color: white;
+}
+.tablaEventos table{
+	font-size: 15px;
+	float: left;
+	width: 550px;
+	margin: 0 auto;	
+	line-height: 55px;
+	border-width: 5px;
+	border-color: rgb(32, 69, 117);
+	text-align: center;
+	
+
+}
+
+.tablaEventos table th{
+	text-decoration: underline;
+	background-color:black;
+	color:white;
+}
+.tablaEventos table td{
+	
+	background-color:gray;
+	color: white;
+}
+.tablaEventos td a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+	color:black;
+}
+
+#container {
+    width:100%;
+    text-align:center;
+}
+
+#izq{
+	float:left;
+	width: 10px;
+	margin-right: 5px;
+}
+#med{
+	margin:0 auto;
+	padding-right: 550px;
+	width:100px;
+	
+}
+#der {
+    float:right;
+	padding-right: 400px;
+    width:100px;
+	margin-left: 5px;
+}
+#condic{
+	margin:0 auto;
+	color: white;
+	padding-right: 50px;
+	width:500px;
+	
+}
+
+#boton {
+	border-radius: 25px;
+}
+
+.condicionesDeUso {
+	clear: both;
+	background-color: rgb(226, 226, 240);
+	text-align: center;
+}
+
+.formulario {
+	font-weight: bold;
+	background-color: rgb(226, 226, 240);
+	text-align: center;
+}
+
+section {
+	width: 100%;
+	margin-bottom: 25px;
+}
+

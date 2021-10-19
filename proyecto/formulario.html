@@ -1,0 +1,70 @@
+<!--En este archivo, rellenas un formulario con datos personales para dar tu opinion acerca de lo que te parece la web-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PitidoFinal</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+   <header>
+    <img src="Imagenes/banner_logo.jpg" height="100" width="1500" alt="">
+   </header>
+
+    <div class="listaMenu">
+    <form name="lista" target="_blank">
+       <ul>
+            <li> 
+                <select name="desplegable">
+                    <option value="https://www.instagram.com/?hl=es">Instagram</option> 
+                    <option value="https://twitter.com/?lang=es">Twitter</option>   
+                    <option value="https://es-es.facebook.com/">Facebook</option> 
+                </select>
+                <input id="boton" type="button" value="Ir" onclick="window.open(lista.desplegable.value, this.target, 'resizable=1 ,left=80pt,top=80pt,width=1100px,height=800px'); return false;">
+
+            </li>
+            <li><a href="https://www.marca.com/"> Marca</a></li>
+            <li><a href="https://as.com/"> Diario AS</a></li>
+            <li><a href="/proyecto/index.html">Volver</a> </li>
+
+       </ul>
+    </form>
+   </div>
+
+   <div class="formulario">
+    <form>
+        Nombre: <input type="text" name="nombre" size="30" maxlength="100">
+        <br>
+        Email: <input type="text" name="email" size="25" maxlength="100" value="@">
+       
+        <br>
+        Sexo:
+        <br>
+        <input type="radio" name="sexo" value="Hombre" checked> Hombre
+        <br>
+        <input type="radio" name="sexo" value="Mujer"> Mujer
+        <br>
+        
+        <br>
+        Comenta lo que opinas acerca de la web
+        <br>
+        <textarea cols="30" rows="7" name="comentarios"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Enviar formulario">
+        <br>
+        <br>
+        <input type="Reset" value="Borrar todo">
+        </form>
+   </div>
+<footer>
+    <div class="condicionesDeUso"> 
+        <h1>Los mejores Eventos deportivos en directo en Streaming HD </h1>
+        <h2>Copyright 2021 PitidoFinal. Todos los derechos reservados </h2>
+        <h3><a href="/proyecto/link.html">Condiciones de Uso</a></h3>
+    </div>
+</footer>
+</body>
+</html>

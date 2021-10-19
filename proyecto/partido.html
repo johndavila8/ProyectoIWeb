@@ -1,0 +1,67 @@
+<!--Aqui apareceran divididos en articulos, una seccion con los partidos, sus links y una imagen -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">   
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="Imagenes/banner_logo.jpg" height="100" width="1500" alt="">
+       </header>
+    
+       <div class="listaMenu">
+        <form name="lista" target="_blank">
+           <ul>
+                <li> 
+                    <select name="desplegable">
+                        <option value="https://www.instagram.com/?hl=es">Instagram</option> 
+                        <option value="https://twitter.com/?lang=es">Twitter</option>   
+                        <option value="https://es-es.facebook.com/">Facebook</option> 
+                    </select>
+                    <input id="boton" type="button" value="Ir" onclick="window.open(lista.desplegable.value, this.target, 'resizable=1 ,left=80pt,top=80pt,width=1100px,height=800px'); return false;">
+    
+                </li>
+                <li><a href="https://www.marca.com/"> Marca</a></li>
+                <li><a href="https://as.com/"> Diario AS</a></li>
+                <li><a href="/proyecto/formulario.html"> Deja tu comentario</a></li>
+                <li><a href="/proyecto/index.html">Volver</a> </li>
+            </ul>
+        </form>
+       </div>
+       <main>
+           <section id="fondo">
+                <div class="contenedor">
+                    <h1>Partido:</h1>
+                </div>                
+           </section>
+           <section id="disponibles">
+                <p>ESTOS SON TODOS LOS LINKS DISPONIBLES PARA ESTE EVENTO</p>
+           </section>
+           <section id="link">
+                <div class="contenedor">
+                    <article>
+                        <img src="Imagenes/link1.jpg" alt="">
+                        <h1><a href="https://www.rojadirectatv.tv/canal-15.php">Link 1</a></h1>
+                        <h2>Watch the game</h2>
+                    </article>
+                    <article>
+                        <img src="Imagenes/link2.jpg" alt="">
+                        <h1><a href="https://www.rojadirectatv.tv/canal-caracol.php">Link 2</a></h1>
+                        <h2>Ve aqui tu partido</h2>
+                    </article>
+                    <article>
+                        <img src="Imagenes/link3.jpg" alt="">
+                        <h1><a href="https://www.rojadirectatv.tv/canal-1.php">Link 3</a></h1>
+                        <h2>Hier gehts zum Spiel</h2>
+                    </article>
+                    
+                </div>
+           </section>
+       </main>
+    
+</body>
+</html>

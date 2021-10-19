@@ -1,0 +1,59 @@
+#fondo {
+    margin-top: 50px;
+    position: relative;
+
+}
+#fondo img{
+    width: 100%;
+    height: 100%;
+}
+
+#fondo .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+
+#fondo h1{
+    font-size: 25px;
+}
+
+ #disponibles{
+     text-align: center;
+     color: white;
+     font-weight: bold;
+     text-decoration: underline;
+ }
+
+ #link .contenedor{
+    display: flex;
+    justify-content: center;
+    color: white;   
+ }
+ #link article{
+     margin:20px;
+ }
+
+ #link img{
+     width: 100%;
+     max-width: 200px;
+ }
+.contenedor article h1 a{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    
+}
+ #link h2{
+     text-align: center;
+     color: white;
+ }
+ #link h3{
+     text-decoration: white;
+ }
+ #link .contenedor img{
+    height: 150px;
+    
+ }
